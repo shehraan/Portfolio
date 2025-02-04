@@ -7,6 +7,7 @@ import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import { CgGitFork } from "react-icons/cg";
 import { ImBlog } from "react-icons/im";
+import { ImFilm } from "react-icons/im";
 import {
   AiFillStar,
   AiOutlineHome,
@@ -78,11 +79,11 @@ function NavBar() {
                 <AiOutlineFundProjectionScreen
                   style={{ marginBottom: "2px" }}
                 />{" "}
-                Projects
+                My works
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item>
+            {/*<Nav.Item>
               <Nav.Link
                 as={Link}
                 to="/resume"
@@ -90,27 +91,25 @@ function NavBar() {
               >
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
               </Nav.Link>
-            </Nav.Item>
+            </Nav.Item>*/}
 
             <Nav.Item>
               <Nav.Link
-                href="https://soumyajitblogs.vercel.app/"
+                href="https://medium.com/@shehraanhafiz"
                 target="_blank"
                 rel="noreferrer"
               >
-                <ImBlog style={{ marginBottom: "2px" }} /> Blogs
+                <ImBlog style={{ marginBottom: "2px" }} /> Articles
               </Nav.Link>
             </Nav.Item>
-
-            <Nav.Item className="fork-btn">
-              <Button
-                href="https://github.com/soumyajit4419/Portfolio"
+            <Nav.Item>
+              <Nav.Link
+                href="https://www.youtube.com/@ShehraanHafiz"
                 target="_blank"
-                className="fork-btn-inner"
+                rel="noreferrer"
               >
-                <CgGitFork style={{ fontSize: "1.2em" }} />{" "}
-                <AiFillStar style={{ fontSize: "1.1em" }} />
-              </Button>
+                <ImFilm style={{ marginBottom: "2px" }} /> Videos
+              </Nav.Link>
             </Nav.Item>
           </Nav>
         </Navbar.Collapse>

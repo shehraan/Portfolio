@@ -29,6 +29,7 @@ function Projects() {
               description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
               ghLink="https://github.com/soumyajit4419/Chatify"
               demoLink="https://chatify-49.web.app/"
+              webLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley"
             />
           </Col>
 

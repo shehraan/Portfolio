@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/Profile-pic.svg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -19,36 +19,12 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+            I’m a 18 year old working on computer vision for AR. I'm curious about how we can make AI work with our eyes, instead of only with our smartphones and laptops. Computer Vision is one of the most sophisticated technologies in the world, but with major interest from consumers and industry alike, the future is only moments away... My goal for the next few years is to dive deep into the intersection of vision and AI to prepare the world for the eventual explosion of AR technology. I believe that AR glasses will be for smartphones, what smartphones were for feature phones. I'm super excited to be a part of this journey and to see where it takes us.
+              <br />
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> C++, Javascript and Go. </b>
-              </i>
-              <br />
-              <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Blockchain.
-                </b>
-              </i>
-              <br />
-              <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
+                <b className="purple"> C++, Javascript, Java and Python. </b>
               </i>
             </p>
           </Col>
@@ -67,7 +43,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/shehraan"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -77,7 +53,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Soumyajit4419"
+                  href="https://x.com/ShehraanH"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -87,7 +63,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/shehraan-hafiz/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -97,7 +73,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/soumyajit4419"
+                  href="https://www.instagram.com/shehraan_ah/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
