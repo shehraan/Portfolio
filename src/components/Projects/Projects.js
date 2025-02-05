@@ -8,6 +8,15 @@ import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
+import msft from "../../Assets/Projects/MSFT-slides.png";
+import dragon from "../../Assets/Projects/Dragon.jpg";
+import health from "../../Assets/Projects/healthcare_800x600_newcolors.gif";
+import Luminet from "../../Assets/Projects/laser.png";
+import Meta from "../../Assets/Projects/Meta.png";
+import Interac from "../../Assets/Projects/SS.png";
+import Investor from "../../Assets/Projects/AI-Investor.png";
+import stonks from "../../Assets/Projects/stonks.png";
+
 
 function Projects() {
   return (
@@ -23,7 +32,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={Interac}
               isBlog={false}
               title="Parkinson's Disease Detector"
               description="A program that can detect Parkinson's Disease with over 95% accuracy just by using MRI scans. It is based on Ultralytics' Yolo V8, a highly-advanced computer vision model which I used for the object classification."
@@ -35,7 +44,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={Luminet}
               isBlog={false}
               title="Luminet"
               description="Discovered a solution to the issue of internet inacessibility through free-space optical communication (aka satellites with lasers). I created a demonstration for this concept using an Arduino, a laserbeam, a light sensor, and a little bit of C++ which enabled the song 'Never Gonna Give You Up' to be played based on the laserbeam's transmission."
@@ -46,7 +55,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={dragon}
               isBlog={false}
               title="AR Dragon"
               description="My first time diving into the AR space. This app allows you to fly a dragon in AR on your phone. Built using Unity Engine and C#."
@@ -56,7 +65,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={msft}
               isBlog={false}
               title="Microsoft Consulting"
               description="Had the opportunity to pitch our energy efficiency solution to a partner at Microsoft. Using a technique called Voltage Underscaling, we hoped to reduce GPU chip + cooling energy consumption by ~20%. Our idea ended up being selected out of 800+ other participants, and we were chosen to have our ideas be presented to executives and potentially implemented."
@@ -67,7 +76,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={Investor}
               isBlog={false}
               title="Interac Consulting"
               description="Worked with Interac, Canada’s largest payment network, on a smart product recommendation software for their upcoming Konek application."
@@ -78,7 +87,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={Meta}
               isBlog={false}
               title="Meta Consulting"
               description="Collaborated with Meta's oversight board on youth endangerment on social media and created a proposal to address the issue, with direct validation from Meta's trustee Kristina Arriaga and interviews with youth users/"
@@ -88,12 +97,23 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={stonks}
               isBlog={false}
               title="AI Stock Price Predictor"
               description="Built an algorithm that could predict stock prices based on past statistics using NASDAQ's Data Link API. I built this using Jupyter Notebook and Python."
               demoLink="https://medium.com/@shehraanhafiz/cb3829b05cb2"
               webLink="https://youtu.be/NOIdTiEBRJw"           
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={health}
+              isBlog={false}
+              title="Medical chatbot"
+              description="A chatbot webapp that allows you to talk with MedpaLM 2, Google's latest large language model oriented towards the medical domain."
+              demoLink="https://medium.com/insights-of-nature/medpalm-the-doctor-of-tomorrow-8db91b9e26b0"
+              webLink="https://youtu.be/4UiZsw3aTjk"     
+              websiteLink="https://shehraan.online/"      
             />
           </Col>
         </Row>
