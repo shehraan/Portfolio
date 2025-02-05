@@ -26,10 +26,10 @@ function Projects() {
               imgPath={chatify}
               isBlog={false}
               title="Parkinson's Disease Detector"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
-              webLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley"
+              description="A program that can detect Parkinson's Disease with over 95% accuracy just by using MRI scans. It is based on Ultralytics' Yolo V8, a highly-advanced computer vision model which I used for the object classification."
+              websiteLink="https://parkinsondiseasedetector.tech/"
+              demoLink="https://medium.com/insights-of-nature/mri-scans-and-ai-a-novel-approach-to-diagnose-parkinsons-disease-in-a-matter-of-seconds-2b04e414e834"
+              webLink="https://youtu.be/odBd20KFAdE"
             />
           </Col>
 
@@ -38,9 +38,9 @@ function Projects() {
               imgPath={bitsOfCode}
               isBlog={false}
               title="Luminet"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              description="Discovered a solution to the issue of internet inacessibility through free-space optical communication (aka satellites with lasers). I created a demonstration for this concept using an Arduino, a laserbeam, a light sensor, and a little bit of C++ which enabled the song 'Never Gonna Give You Up' to be played based on the laserbeam's transmission."
+              websiteLink="https://luminet.typedream.app/"
+              demoLink="https://firebasestorage.googleapis.com/v0/b/tks-life-prod.appspot.com/o/items%2FtNjFvF2r2jcwoYZ7O1yNdDg4FK13%2FLuminet%20Investor%20Pitch.pdf?alt=media&token=c5e271c8-e6ce-4acd-b6cc-8309e5b77501"
             />
           </Col>
 
@@ -49,9 +49,8 @@ function Projects() {
               imgPath={editor}
               isBlog={false}
               title="AR Dragon"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              description="My first time diving into the AR space. This app allows you to fly a dragon in AR on your phone. Built using Unity Engine and C#."
+              demoLink="https://medium.com/@shehraanhafiz/flying-a-dragon-in-ar-f0ea0b902dcf"
             />
           </Col>
 
@@ -59,10 +58,10 @@ function Projects() {
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
-              title="Microsoft Challenge"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Microsoft Consulting"
+              description="Had the opportunity to pitch our energy efficiency solution to a partner at Microsoft. Using a technique called Voltage Underscaling, we hoped to reduce GPU chip + cooling energy consumption by ~20%. Our idea ended up being selected out of 800+ other participants, and we were chosen to have our ideas be presented to executives and potentially implemented."
+              demoLink="https://drive.google.com/file/d/1f-H8FJXL65xSUvMz5zOXgZtTFef5Kir2/view"
+              webLink="https://youtu.be/UwmFg5E4orE"
             />
           </Col>
 
@@ -70,9 +69,9 @@ function Projects() {
             <ProjectCard
               imgPath={suicide}
               isBlog={false}
-              title="Interac Challenge"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
+              title="Interac Consulting"
+              description="Worked with Interac, Canada’s largest payment network, on a smart product recommendation software for their upcoming Konek application."
+              demoLink="https://docsend.com/view/4c3djdss6u5n42pv"
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
           </Col>
@@ -81,10 +80,9 @@ function Projects() {
             <ProjectCard
               imgPath={emotion}
               isBlog={false}
-              title="Meta Challenge"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+              title="Meta Consulting"
+              description="Collaborated with Meta's oversight board on youth endangerment on social media and created a proposal to address the issue, with direct validation from Meta's trustee Kristina Arriaga and interviews with youth users/"
+              demoLink="https://firebasestorage.googleapis.com/v0/b/tks-life-prod.appspot.com/o/items%2FtNjFvF2r2jcwoYZ7O1yNdDg4FK13%2FShehraan%2C%20Abdullah%2C%20Pirabaa%2C%20Matthew%2C%20Ram%20-%20META%20Challenge%20Slidedeck.pdf?alt=media&token=0cc668c4-2c5b-4b1b-9c36-286105395e89"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
           </Col>
@@ -93,9 +91,9 @@ function Projects() {
               imgPath={editor}
               isBlog={false}
               title="AI Stock Price Predictor"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              description="Built an algorithm that could predict stock prices based on past statistics using NASDAQ's Data Link API. I built this using Jupyter Notebook and Python."
+              demoLink="https://medium.com/@shehraanhafiz/cb3829b05cb2"
+              webLink="https://youtu.be/NOIdTiEBRJw"           
             />
           </Col>
         </Row>

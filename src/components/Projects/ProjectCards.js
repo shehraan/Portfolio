@@ -2,8 +2,9 @@ import React from "react";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import { CgWebsite } from "react-icons/cg";
-import { BsGithub } from "react-icons/bs";
+//import { BsGithub } from "react-icons/bs";
 import { ImPlay } from "react-icons/im";
+import { SiCloudflarepages } from "react-icons/si";
 
 function ProjectCards(props) {
   return (
@@ -14,12 +15,7 @@ function ProjectCards(props) {
         <Card.Text style={{ textAlign: "justify" }}>
           {props.description}
         </Card.Text>
-        <Button variant="primary" href={props.ghLink} target="_blank">
-          <BsGithub /> &nbsp;
-          {props.isBlog ? "Blog" : "GitHub"}
-        </Button>
-        {"\n"}
-        {"\n"}
+        {/* Demo Button */}
         {!props.isBlog && props.demoLink && (
           <Button
             variant="primary"
@@ -27,11 +23,12 @@ function ProjectCards(props) {
             target="_blank"
             style={{ marginLeft: "10px" }}
           >
-            <CgWebsite /> &nbsp; Demo
+            <SiCloudflarepages /> &nbsp; Demo
           </Button>
         )}
         {"\n"}
         {"\n"}
+        {/* Video Button */}
         {props.webLink && (
           <Button
             variant="primary"
@@ -39,7 +36,20 @@ function ProjectCards(props) {
             target="_blank"
             style={{ marginLeft: "10px" }}
           >
-            <ImPlay /> &nbsp; Website
+            <ImPlay /> &nbsp; Video
+          </Button>
+        )}
+        {"\n"}
+        {"\n"}
+        {/* Website Button */}
+        {props.websiteLink && (
+          <Button
+            variant="primary"
+            href={props.websiteLink}
+            target="_blank"
+            style={{ marginLeft: "10px" }}
+          >
+            <CgWebsite /> &nbsp; Website
           </Button>
         )}
       </Card.Body>

@@ -32,7 +32,8 @@ function AboutCard() {
               <ImPointRight /> Tinkering with Computer Parts
             </li>
           </ul>
-
+          <br />
+          <b>My favorite quote:</b>
           <p style={{ color: "rgb(155 126 172)" }}>
           "The best way to predict the future is to create it."{" "}
           </p>
