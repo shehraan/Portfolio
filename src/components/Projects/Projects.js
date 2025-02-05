@@ -35,7 +35,7 @@ function Projects() {
               imgPath={Interac}
               isBlog={false}
               title="Parkinson's Disease Detector"
-              description="A program that can detect Parkinson's Disease with over 95% accuracy just by using MRI scans. It is based on Ultralytics' Yolo V8, a highly-advanced computer vision model which I used for the object classification."
+              description="A program that can detect Parkinson's Disease with over 95% accuracy just by using MRI scans. I collaborated with the University of Southern California to get access to private medical data. It is based on Ultralytics' Yolo V8, a highly-advanced computer vision model which I used for the object classification."
               websiteLink="https://parkinsondiseasedetector.tech/"
               demoLink="https://medium.com/insights-of-nature/mri-scans-and-ai-a-novel-approach-to-diagnose-parkinsons-disease-in-a-matter-of-seconds-2b04e414e834"
               webLink="https://youtu.be/odBd20KFAdE"
