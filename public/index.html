@@ -8,7 +8,20 @@
   <meta name="theme-color" content="#000000" />
   <meta name="description" content="Web site created using create-react-app" />
   <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-  <title>S0umyajit | Portfolio</title>
+  <title id="page-title"></title>
+  <script>
+    (function() {
+      var path = window.location.pathname;
+      var page = path.substring(path.lastIndexOf("/") + 1);
+      if (!page || page === "index.html") {
+        page = "Home";
+      } else {
+        page = page.replace(".html", "");
+        page = page.charAt(0).toUpperCase() + page.slice(1);
+      }
+      document.getElementById("page-title").textContent = "Shehraan | " + page;
+    })();
+  </script>
   <meta name="description" content="Self Developed personal website build with React.js">
 
   <!-- Google / Search Engine Tags -->
