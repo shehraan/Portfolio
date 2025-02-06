@@ -60,7 +60,7 @@ function Projects() {
               isBlog={false}
               title="Aeye"
               description="Created the world's first 'ChatGPT for Eyes' app, which allows you to speak with AI in Augmented Reality. The app can automatically take an image of what you're looking at, and answer anything based upon the image. It can also be used without the image functionality, allowing the user to speak with Aeyes, just like a voice assistant. I built it using Java and a bit of XML, in Android Studio."
-              demoLink="https://medium.com/@shehraanhafiz/flying-a-dragon-in-ar-f0ea0b902dcf"
+              websiteLink="https://github.com/shehraan/AR-Glasses-Assistant/tree/main"
             />
           </Col>
 
