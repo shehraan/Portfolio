@@ -8,6 +8,7 @@ import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
+import AIchat from "../../Assets/Projects/AI-Chat-in-AR.gif";
 import msft from "../../Assets/Projects/MSFT-slides.png";
 import dragon from "../../Assets/Projects/Dragon.jpg";
 import health from "../../Assets/Projects/healthcare_800x600_newcolors.gif";
@@ -55,10 +56,10 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={dragon}
+              imgPath={AIchat}
               isBlog={false}
-              title="AR Dragon"
-              description="My first time diving into the AR space. This app allows you to fly a dragon in AR on your phone. Built using Unity Engine and C#."
+              title="Aeye"
+              description="Created the world's first 'ChatGPT for Eyes' app, which allows you to speak with AI in Augmented Reality. The app can automatically take an image of what you're looking at, and answer anything based upon the image. It can also be used without the image functionality, allowing the user to speak with Aeyes, just like a voice assistant. I built it using Java and a bit of XML, in Android Studio."
               demoLink="https://medium.com/@shehraanhafiz/flying-a-dragon-in-ar-f0ea0b902dcf"
             />
           </Col>
@@ -116,6 +117,17 @@ function Projects() {
               websiteLink="https://shehraan.online/"      
             />
           </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={dragon}
+              isBlog={false}
+              title="AR Dragon"
+              description="My first time diving into the AR space. This app allows you to fly a dragon in AR on your phone. Built using Unity Engine and C#."
+              demoLink="https://medium.com/@shehraanhafiz/flying-a-dragon-in-ar-f0ea0b902dcf"
+            />
+          </Col>
+
         </Row>
       </Container>
     </Container>
