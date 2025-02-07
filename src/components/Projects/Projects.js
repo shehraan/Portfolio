@@ -9,13 +9,13 @@ import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 import AIchat from "../../Assets/Projects/AI-Chat-in-AR.gif";
-import msft from "../../Assets/Projects/MSFT-slides.png";
+import msft from "../../Assets/Projects/image.png";
 import dragon from "../../Assets/Projects/Dragon.jpg";
 import health from "../../Assets/Projects/healthcare_800x600_newcolors.gif";
 import Luminet from "../../Assets/Projects/laser.png";
-import Meta from "../../Assets/Projects/Meta.png";
+import Meta from "../../Assets/Projects/meta-copy.png";
 import Interac from "../../Assets/Projects/SS.png";
-import Investor from "../../Assets/Projects/AI-Investor.png";
+import Investor from "../../Assets/Projects/asodkoaopkd.png";
 import stonks from "../../Assets/Projects/stonks.png";
 
 
@@ -58,8 +58,8 @@ function Projects() {
             <ProjectCard
               imgPath={AIchat}
               isBlog={false}
-              title="Aeye"
-              description="Created the world's first 'ChatGPT for Eyes' app, which allows you to speak with AI in Augmented Reality. The app can automatically take an image of what you're looking at, and answer anything based upon the image. It can also be used without the image functionality, allowing the user to speak with Aeyes, just like a voice assistant. I built it using Java and a bit of XML, in Android Studio."
+              title="AeyeR"
+              description="Created the world's first 'ChatGPT for Eyes' app, which allows you to speak with AI in Augmented Reality. The app can take an image of what you're looking at, and provide a response to your message, based upon the image. It can also be used without the image functionality, allowing the user to speak with AeyeR, just like a voice assistant. I built it using Java and a bit of XML, in Android Studio."
               websiteLink="https://github.com/shehraan/AR-Glasses-Assistant/tree/main"
             />
           </Col>
@@ -70,7 +70,7 @@ function Projects() {
               isBlog={false}
               title="Microsoft Consulting"
               description="Had the opportunity to pitch our energy efficiency solution to a partner at Microsoft. Using a technique called Voltage Underscaling, we hoped to reduce GPU chip + cooling energy consumption by ~20%. Our idea ended up being selected out of 800+ other participants, and we were chosen to have our ideas be presented to executives and potentially implemented."
-              demoLink="https://drive.google.com/file/d/1f-H8FJXL65xSUvMz5zOXgZtTFef5Kir2/view"
+              demoLink="https://drive.google.com/file/d/1BwS6SEr56cmk7cmRETrNVCwg45r6M2IT/view?usp=sharing"
               webLink="https://youtu.be/UwmFg5E4orE"
             />
           </Col>
@@ -80,7 +80,7 @@ function Projects() {
               imgPath={Investor}
               isBlog={false}
               title="Interac Consulting"
-              description="Worked with Interac, Canada’s largest payment network, on a smart product recommendation software for their upcoming Konek application."
+              description="Worked with Interac, Canada’s largest payment network, on a smart product recommendation software for their upcoming Konek application. Prototyped a smart product suggestion software for upcoming Konek application. Ended up being chosen by Interac out of three other ideas."
               demoLink="https://docsend.com/view/4c3djdss6u5n42pv"
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
