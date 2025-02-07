@@ -16,11 +16,11 @@ function AboutCard() {
             I am also studying Computer Science at Toronto Metropolitan University.
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            Apart from coding, here are some other activities that I love to do:
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight />  Reading books - one of my favorites is "Six Thinking Hats" by Edward de Bono
+              <ImPointRight />  Reading books - my favorite is "Six Thinking Hats" by Edward de Bono
             </li>
             <li className="about-activity">
               <ImPointRight /> Playing sports - especially badminton and tennis. 
