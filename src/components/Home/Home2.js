@@ -19,15 +19,24 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-            I’m a 18 year old working on computer vision for AR. I'm curious about how we can make AI work with our eyes, instead of only with our smartphones and laptops. Computer Vision is one of the most sophisticated technologies in the world, but with major interest from consumers and industry alike, the future is only moments away... My goal for the next few years is to dive deep into the intersection of vision and AI to prepare the world for the eventual explosion of AR technology. I believe that AR glasses will be for smartphones, what smartphones were for feature phones. I'm super excited to be a part of this journey and to see where it takes us.
+              I'm an 18-year-old with a passion for merging technology with the way we see the world. Right now, most of us rely on our phones or laptops to access smart apps like ChatGPT—taking a photo here, typing a question there. But I like to imagine a future where we don't have to reach for our devices at all. Instead, picture wearing AR glasses that let you ask questions and get answers simply by speaking naturally, all based on what you're looking at.
               <br />
-              <br />I am fluent in classics like
-              <i>
-                <b className="purple"> C++, Javascript, Java and Python. </b>
-              </i>
               <br />
+              And there's even more to get excited about. As we move beyond touch controls and toward more intuitive interfaces—especially with advances in brain-computer interface technology—we’re looking at a future where simple gestures replace physical devices. I believe that Ar Glasses will be for smartphones, was the Iphone was for keyboard phones - it will be next evolution in daily-use devices.          <br />
+              <br />
+
+              Over the next few years, I’m excited to dive deep into this blend of vision and tech, working to pave the way for a future where our digital experiences feel as natural as seeing the world around us.
+              <br />
+              
               <br />
               Check out my monthly newsletter here: <a href="https://shehraan.substack.com/?utm_source=substack&utm_medium=web&utm_campaign=substack_profile">Learning to Learn</a>
+              <b>You can learn more about:</b>
+              <ul>
+                <li>My consulting work with Microsoft, Meta and Interac</li>
+                <li>Creating a Parksinon's disease detector with the help of USC researchers</li>
+                <li>My learnings from life</li>
+                <li>And More!</li>
+              </ul>
             </p>
           </Col>
           <Col md={4} className="myAvtar">
