@@ -19,18 +19,16 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I'm an 18-year-old with a passion for merging technology with the way we see the world. Right now, most of us rely on our phones or laptops to access smart apps like ChatGPT—taking a photo here, typing a question there. But I like to imagine a future where we don't have to reach for our devices at all. Instead, picture wearing AR glasses that let you ask questions and get answers simply by speaking naturally, all based on what you're looking at.
+              I'm an 18-year-old working on AI x AR. Right now, most of us rely on our phones or laptops to access smart apps like ChatGPT—taking a photo here, typing a question there. But I like to imagine a future where we don't have to reach for our devices at all. Instead, picture wearing AR glasses that let you ask questions and get answers simply by speaking naturally, all based on what you're looking at.
               <br />
               <br />
-              And there's even more to get excited about. As we move beyond touch controls and toward more intuitive interfaces—especially with advances in brain-computer interface technology—we’re looking at a future where simple gestures replace physical devices. I believe that Ar Glasses will be for smartphones, was the Iphone was for keyboard phones - it will be next evolution in daily-use devices.          <br />
+              And there's even more to get excited about. As we move beyond touch controls and toward more intuitive interfaces—especially with advances in brain-computer interface technology—we’re looking at a future where simple gestures replace physical devices. I believe that AR Glasses will be for smartphones, was the Iphone was for keyboard phones - it will be next evolution in daily-use devices.          <br />
               <br />
-
-              Over the next few years, I’m excited to dive deep into this blend of vision and tech, working to pave the way for a future where our digital experiences feel as natural as seeing the world around us.
-              <br />
+              I'm super excited to be a part of this journey and to see where it takes us.              <br />
               
               <br />
-              Check out my monthly newsletter here: <a href="https://shehraan.substack.com/?utm_source=substack&utm_medium=web&utm_campaign=substack_profile">Learning to Learn</a>
-              <b>You can learn more about:</b>
+              Check out my monthly newsletter <a href="https://shehraan.substack.com/?utm_source=substack&utm_medium=web&utm_campaign=substack_profile">Learning to Learn</a>,
+              <b> where I talk about:</b>
               <ul>
                 <li>My consulting work with Microsoft, Meta and Interac</li>
                 <li>Creating a Parksinon's disease detector with the help of USC researchers</li>
