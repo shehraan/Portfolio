@@ -11,7 +11,7 @@ import Meta from "../../Assets/Projects/meta-copy.png";
 import Interac from "../../Assets/Projects/SS.png";
 import Investor from "../../Assets/Projects/asodkoaopkd.png";
 import stonks from "../../Assets/Projects/stonks.png";
-
+import browser from "../../Assets/Projects/taplink.png";
 
 function Projects() {
   return (
@@ -39,22 +39,33 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={Luminet}
+              imgPath={browser}
               isBlog={false}
-              title="Luminet"
-              description="Discovered a solution to the issue of internet inacessibility through free-space optical communication (aka satellites with lasers). I created a demonstration for this concept using an Arduino, a laserbeam, a light sensor, and a little bit of C++ which enabled the song 'Never Gonna Give You Up' to be played based on the laserbeam's transmission."
-              websiteLink="https://luminet.typedream.app/"
-              demoLink="https://firebasestorage.googleapis.com/v0/b/tks-life-prod.appspot.com/o/items%2FtNjFvF2r2jcwoYZ7O1yNdDg4FK13%2FLuminet%20Investor%20Pitch.pdf?alt=media&token=c5e271c8-e6ce-4acd-b6cc-8309e5b77501"
-            />
+              title="TapLink (Coming Soon)"
+              description="Working on the an AR browser with 3dof capabilities. The app will enable you to anchor the screen and make it appear as if it is pinned in place, regardless of the rotations of your head. The app also moves the mouse relative to your head motions, allowing you click where you look! Such functions are not natively supported, but have been implemented via software."
+               />
           </Col>
+
+          
 
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={AIchat}
               isBlog={false}
               title="AeyeR"
-              description="Created the world's first 'ChatGPT for Eyes' app, which allows you to speak with AI in Augmented Reality. The app can take an image of what you're looking at, and provide a response to your message, based upon the image. It can also be used without the image functionality, allowing the user to speak with AeyeR, just like a voice assistant. I built it using Java and a bit of XML, in Android Studio."
-              websiteLink="https://github.com/shehraan/AR-Glasses-Assistant/tree/main"
+              description="Created the world's first 'ChatGPT for Eyes' app, which allows you to speak with AI in Augmented Reality. The app can take an image of what you're looking at, and provide a response to your message, based upon the image. It can also be used without the image functionality, allowing the user to speak with AeyeR, just like a voice assistant."
+              webLink="https://youtu.be/KbjbYzSsAtg"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Luminet}
+              isBlog={false}
+              title="Luminet"
+              description="Discovered a solution to the issue of internet inacessibility through free-space optical communication (aka satellites with lasers). I created a demonstration for this concept using an Arduino, a laserbeam, a light sensor, and a little bit of C++ which enabled the song 'Never Gonna Give You Up' to be played based on the laserbeam's transmission."
+              websiteLink="https://luminet.typedream.app/"
+              demoLink="https://firebasestorage.googleapis.com/v0/b/tks-life-prod.appspot.com/o/items%2FtNjFvF2r2jcwoYZ7O1yNdDg4FK13%2FLuminet%20Investor%20Pitch.pdf?alt=media&token=c5e271c8-e6ce-4acd-b6cc-8309e5b77501"
             />
           </Col>
 

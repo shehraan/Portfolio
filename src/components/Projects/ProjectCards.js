@@ -23,7 +23,7 @@ function ProjectCards(props) {
             target="_blank"
             style={{ marginLeft: "10px" }}
           >
-            <SiCloudflarepages /> &nbsp; Demo
+            <SiCloudflarepages /> &nbsp; Article
           </Button>
         )}
         {"\n"}
