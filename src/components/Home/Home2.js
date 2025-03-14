@@ -24,7 +24,7 @@ function Home2() {
               <br />
               And there's even more to get excited about. As we move beyond touch controls and toward more intuitive interfaces—especially with advances in brain-computer interface technology—we’re looking at a future where simple gestures replace physical devices. I believe that AR Glasses will be for smartphones, was the Iphone was for keyboard phones - it will be next evolution in daily-use devices.          <br />
               <br />
-              I'm super excited to be a part of this journey and to see where it takes us.              <br />
+              Check out my latest app - an AR browser - on the <a href="https://shehraan.com/project">projects page</a>             <br />
             </p>
           </Col>
           <Col md={4} className="myAvtar">
