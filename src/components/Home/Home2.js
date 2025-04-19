@@ -19,12 +19,16 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I'm an 18-year-old working on AI x AR. Right now, most of us rely on our phones or laptops to access smart apps like ChatGPT—taking a photo here, typing a question there. But I like to imagine a future where we don't have to reach for our devices at all. Instead, picture wearing AR glasses that let you ask questions and get answers simply by speaking naturally, all based on what you're looking at.
+              I'm passionate about artificial intelligence, especially how it can transform the way we work and interact with technology. My main focus is on workflow automation and building intelligent voice agents that help people save time and boost productivity.
               <br />
               <br />
-              And there's even more to get excited about. As we move beyond touch controls and toward more intuitive interfaces—especially with advances in brain-computer interface technology—we’re looking at a future where simple gestures replace physical devices. I believe that AR Glasses will be for smartphones, was the Iphone was for keyboard phones - it will be next evolution in daily-use devices.          <br />
+              I love exploring how AI can automate repetitive tasks, streamline complex processes, and enable seamless communication between different tools and platforms. Voice agents, in particular, excite me because they make technology more accessible and intuitive—letting users accomplish more just by speaking naturally.
               <br />
-              Check out my latest app - an AR browser - on the <a href="https://shehraan.com/project">projects page</a>             <br />
+              <br />
+              I'm always experimenting with new ways to integrate AI into everyday workflows, whether that's through smart assistants, custom automation scripts, or conversational interfaces. If you're interested in how AI can make work smarter and more efficient, let's connect!
+              <br />
+              <br />
+              Check out my latest app—a practice interview app—on the <a href="https://shehraan.com/project">projects page</a>
             </p>
           </Col>
           <Col md={4} className="myAvtar">

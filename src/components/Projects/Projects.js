@@ -12,6 +12,10 @@ import Interac from "../../Assets/Projects/SS.png";
 import Investor from "../../Assets/Projects/asodkoaopkd.png";
 import stonks from "../../Assets/Projects/stonks.png";
 import browser from "../../Assets/Projects/taplink.png";
+import nanny from "../../Assets/Projects/Screenshot 2025-04-19 132754.png"
+import vapi from "../../Assets/Projects/1722190046010-bd1a05f5a5309646.png"
+import chat from "../../Assets/Projects/chaticonimages.png"
+import x from "../../Assets/Projects/A_black_image.jpg"
 
 function Projects() {
   return (
@@ -19,12 +23,57 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
+          My <strong className="purple">Works </strong>
         </h1>
         <p style={{ color: "white" }}>
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={chat}
+              isBlog={false}
+              title="Vapi Interview Practice"
+              description="This webapp allows users to generate mock interview questions based on job criteria and then practice answering those questions with a voice agent, receiving feedback afterward."
+              websiteLink="https://vapi-interview-practice.vercel.app/"
+            />
+          </Col>
+
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={vapi}
+              isBlog={false}
+              title="Vapi Discord Bot"
+              description="This Discord Bot brings voice‑powered AI assistance right into your Discord server. With a simple slash‑command interface, you can start natural‑language calls to your Vapi AI assistant, monitor live call progress and retrieve call statuses, browse your recent conversations with adjustable history limits, terminate ongoing sessions on demand, and get help anytime with built‑in command guidance."
+              webLink="https://youtu.be/KbjbYzSsAtg"
+              websiteLink="https://github.com/shehraan/AR-Glasses-Assistant"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={nanny}
+              isBlog={false}
+              title="AeyeR"
+              description="Created the world's first 'ChatGPT for Eyes' app, which allows you to speak with AI in Augmented Reality. The app can take an image of what you're looking at, and provide a response to your message, based upon the image. My Nanny used it to learn English."
+              webLink="https://youtu.be/KbjbYzSsAtg"
+              websiteLink="https://github.com/shehraan/AR-Glasses-Assistant"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Luminet}
+              isBlog={false}
+              title="Luminet"
+              description="Discovered a solution to the issue of internet inacessibility through free-space optical communication (aka satellites with lasers). I created a demonstration for this concept using an Arduino, a laserbeam, a light sensor, and a little bit of C++ which enabled the song 'Never Gonna Give You Up' to be played based on the laserbeam's transmission."
+              websiteLink="https://luminet.typedream.app/"
+              demoLink="https://firebasestorage.googleapis.com/v0/b/tks-life-prod.appspot.com/o/items%2FtNjFvF2r2jcwoYZ7O1yNdDg4FK13%2FLuminet%20Investor%20Pitch.pdf?alt=media&token=c5e271c8-e6ce-4acd-b6cc-8309e5b77501"
+              webLink="https://youtu.be/KbjbYzSsAtg?si=FPKgI_i3yQV2Hzhu"
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={Interac}
@@ -39,34 +88,31 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={dragon}
+              isBlog={false}
+              title="AR Dragon"
+              description="My first time diving into the AR space. This app allows you to fly a dragon in AR on your phone. Built using Unity Engine and C#."
+              webLink="https://youtube.com/shorts/aZA7hzXDWKg?si=IGjJWXSTNYj6fSsF"
+              demoLink="https://medium.com/@shehraanhafiz/flying-a-dragon-in-ar-f0ea0b902dcf"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={x}
+              isBlog={false}
+              title="Vapi Minimalist Assistant"
+              description="This is a minimalist web application that integrates the Vapi Voice Widget. It allows users to interact with the Vapi AI assistant through a simple and clean interface. The app is designed to provide a seamless experience for users who want to access the Vapi assistant without any distractions."
+               />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={browser}
               isBlog={false}
               title="TapLink (Coming Soon)"
               description="Working on the an AR browser with 3dof capabilities. The app will enable you to anchor the screen and make it appear as if it is pinned in place, regardless of the rotations of your head. The app also moves the mouse relative to your head motions, allowing you click where you look! Such functions are not natively supported, but have been implemented via software."
                />
-          </Col>
-
-          
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={AIchat}
-              isBlog={false}
-              title="AeyeR"
-              description="Created the world's first 'ChatGPT for Eyes' app, which allows you to speak with AI in Augmented Reality. The app can take an image of what you're looking at, and provide a response to your message, based upon the image. It can also be used without the image functionality, allowing the user to speak with AeyeR, just like a voice assistant."
-              webLink="https://youtu.be/KbjbYzSsAtg"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={Luminet}
-              isBlog={false}
-              title="Luminet"
-              description="Discovered a solution to the issue of internet inacessibility through free-space optical communication (aka satellites with lasers). I created a demonstration for this concept using an Arduino, a laserbeam, a light sensor, and a little bit of C++ which enabled the song 'Never Gonna Give You Up' to be played based on the laserbeam's transmission."
-              websiteLink="https://luminet.typedream.app/"
-              demoLink="https://firebasestorage.googleapis.com/v0/b/tks-life-prod.appspot.com/o/items%2FtNjFvF2r2jcwoYZ7O1yNdDg4FK13%2FLuminet%20Investor%20Pitch.pdf?alt=media&token=c5e271c8-e6ce-4acd-b6cc-8309e5b77501"
-            />
           </Col>
 
           <Col md={4} className="project-card">
@@ -120,16 +166,6 @@ function Projects() {
               demoLink="https://medium.com/insights-of-nature/medpalm-the-doctor-of-tomorrow-8db91b9e26b0"
               webLink="https://youtu.be/4UiZsw3aTjk"     
               websiteLink="https://shehraan.online/"      
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={dragon}
-              isBlog={false}
-              title="AR Dragon"
-              description="My first time diving into the AR space. This app allows you to fly a dragon in AR on your phone. Built using Unity Engine and C#."
-              demoLink="https://medium.com/@shehraanhafiz/flying-a-dragon-in-ar-f0ea0b902dcf"
             />
           </Col>
 

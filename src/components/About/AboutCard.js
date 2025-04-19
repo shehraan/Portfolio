@@ -11,7 +11,7 @@ function AboutCard() {
             Hi, I am <span className="purple">Shehraan </span>
             from <span className="purple"> Toronto, Canada.</span>
             <br />
-            I am currently working on building an AR-optimized browser, debuting specifically on the Rayneo X2's.
+            I am currently working on building a DIY VR headset for under $50.
             <br />
             I am also studying Computer Science at Toronto Metropolitan University.
             <br />
