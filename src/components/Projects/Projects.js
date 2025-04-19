@@ -46,8 +46,8 @@ function Projects() {
               isBlog={false}
               title="Vapi Discord Bot"
               description="This Discord Bot brings voice‑powered AI assistance right into your Discord server. With a simple slash‑command interface, you can start natural‑language calls to your Vapi AI assistant, monitor live call progress and retrieve call statuses, browse your recent conversations with adjustable history limits, terminate ongoing sessions on demand, and get help anytime with built‑in command guidance."
-              webLink="https://youtu.be/KbjbYzSsAtg"
-              websiteLink="https://github.com/shehraan/AR-Glasses-Assistant"
+              webLink="https://drive.google.com/file/d/1roRtP3aeANeL9YAZuFCNjqsAz5cVMrF_/view?usp=sharingg"
+              websiteLink="https://github.com/shehraan/Vapi-based-Discord-Bot"
             />
           </Col>
 
@@ -103,7 +103,9 @@ function Projects() {
               isBlog={false}
               title="Vapi Minimalist Assistant"
               description="This is a minimalist web application that integrates the Vapi Voice Widget. It allows users to interact with the Vapi AI assistant through a simple and clean interface. The app is designed to provide a seamless experience for users who want to access the Vapi assistant without any distractions."
-               />
+              webLink="https://drive.google.com/file/d/1s1Xh1f67XsuatGPaXoEX5h8-RFvnp2qC/view?usp=sharing"
+              websiteLink="https://github.com/shehraan/VAPI-BASIC-Assistant"
+              />
           </Col>
 
           <Col md={4} className="project-card">
