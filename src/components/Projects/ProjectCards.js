@@ -52,6 +52,20 @@ function ProjectCards(props) {
             <CgWebsite /> &nbsp; Website
           </Button>
         )}
+
+        {"\n"}
+        {"\n"}
+        {/* Slidedeck Button */}
+        {props.slideLink && (
+          <Button
+            variant="primary"
+            href={props.slideLink}
+            target="_blank"
+            style={{ marginLeft: "10px" }}
+          >
+            <CgWebsite /> &nbsp; Slidedeck
+          </Button>
+        )}
       </Card.Body>
     </Card>
   );

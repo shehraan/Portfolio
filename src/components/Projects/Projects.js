@@ -69,8 +69,8 @@ function Projects() {
               title="Luminet"
               description="Discovered a solution to the issue of internet inacessibility through free-space optical communication (aka satellites with lasers). I created a demonstration for this concept using an Arduino, a laserbeam, a light sensor, and a little bit of C++ which enabled the song 'Never Gonna Give You Up' to be played based on the laserbeam's transmission."
               websiteLink="https://luminet.typedream.app/"
-              demoLink="https://firebasestorage.googleapis.com/v0/b/tks-life-prod.appspot.com/o/items%2FtNjFvF2r2jcwoYZ7O1yNdDg4FK13%2FLuminet%20Investor%20Pitch.pdf?alt=media&token=c5e271c8-e6ce-4acd-b6cc-8309e5b77501"
               webLink="https://youtu.be/KbjbYzSsAtg?si=FPKgI_i3yQV2Hzhu"
+              slideLink="https://firebasestorage.googleapis.com/v0/b/tks-life-prod.appspot.com/o/items%2FtNjFvF2r2jcwoYZ7O1yNdDg4FK13%2FLuminet%20Investor%20Pitch.pdf?alt=media&token=c5e271c8-e6ce-4acd-b6cc-8309e5b77501"
             />
           </Col>
 
@@ -123,7 +123,7 @@ function Projects() {
               isBlog={false}
               title="Microsoft Consulting"
               description="Had the opportunity to pitch our energy efficiency solution to a partner at Microsoft. Using a technique called Voltage Underscaling, we hoped to reduce GPU chip + cooling energy consumption by ~20%. Our idea ended up being selected out of 800+ other participants, and we were chosen to have our ideas be presented to executives and potentially implemented."
-              demoLink="https://drive.google.com/file/d/1BwS6SEr56cmk7cmRETrNVCwg45r6M2IT/view?usp=sharing"
+              slideLink="https://drive.google.com/file/d/1FbwyXGqiU5Waj860xmDyftjKCUuEJH81/view?usp=sharing"
               webLink="https://youtu.be/UwmFg5E4orE"
             />
           </Col>
@@ -134,7 +134,7 @@ function Projects() {
               isBlog={false}
               title="Interac Consulting"
               description="Worked with Interac, Canada’s largest payment network, on a smart product recommendation software for their upcoming Konek application. Prototyped a smart product suggestion software for upcoming Konek application. Ended up being chosen by Interac out of three other ideas."
-              demoLink="https://docsend.com/view/4c3djdss6u5n42pv"
+              slideLink="https://docsend.com/view/4c3djdss6u5n42pv"
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
           </Col>
@@ -145,7 +145,7 @@ function Projects() {
               isBlog={false}
               title="Meta Consulting"
               description="Collaborated with Meta's oversight board on youth endangerment on social media and created a proposal to address the issue, with direct validation from Meta's trustee Kristina Arriaga and interviews with youth users/"
-              demoLink="https://firebasestorage.googleapis.com/v0/b/tks-life-prod.appspot.com/o/items%2FtNjFvF2r2jcwoYZ7O1yNdDg4FK13%2FShehraan%2C%20Abdullah%2C%20Pirabaa%2C%20Matthew%2C%20Ram%20-%20META%20Challenge%20Slidedeck.pdf?alt=media&token=0cc668c4-2c5b-4b1b-9c36-286105395e89"
+              slideLink="https://firebasestorage.googleapis.com/v0/b/tks-life-prod.appspot.com/o/items%2FtNjFvF2r2jcwoYZ7O1yNdDg4FK13%2FShehraan%2C%20Abdullah%2C%20Pirabaa%2C%20Matthew%2C%20Ram%20-%20META%20Challenge%20Slidedeck.pdf?alt=media&token=0cc668c4-2c5b-4b1b-9c36-286105395e89"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
           </Col>
