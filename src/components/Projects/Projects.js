@@ -37,6 +37,7 @@ function Projects() {
               title="Vapi Interview Practice"
               description="This webapp allows users to generate mock interview questions based on job criteria and then practice answering those questions with a voice agent, receiving feedback afterward."
               websiteLink="https://vapi-interview-practice.vercel.app/"
+              webLink="https://x.com/ShehraanH/status/1916909295892832410"
             />
           </Col>
 
