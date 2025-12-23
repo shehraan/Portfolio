@@ -1,6 +1,5 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import { ImPointRight } from "react-icons/im";
 
 function AboutCard() {
   return (
@@ -46,7 +45,7 @@ function AboutCard() {
               <section className="about-section-block">
                 <h3>What I’m looking for</h3>
                 <p>
-I’m looking for roles where I can work on products with strong technical teams and keep growing through hard, hands-on engineering work. I’m especially interested in applied AI, communication workflows, and embedded systems. I’m most motivated by environments where I can move quickly, build end-to-end, and contribute to systems that have real-world impact.
+                  I’m looking for roles where I can work on products with strong technical teams and keep growing through hard, hands-on engineering work. I’m especially interested in applied AI, communication workflows, and embedded systems. I’m most motivated by environments where I can move quickly, build end-to-end, and contribute to systems that have real-world impact.
                 </p>
               </section>
             </div>

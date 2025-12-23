@@ -1,11 +1,8 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
-import Github from "./Github";
-import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/self.jpg";
-import Toolstack from "./Toolstack";
 import wearingHeadset from "../../Assets/meWithHeadset.jpg";
 
 function About() {
@@ -36,19 +33,6 @@ function About() {
             <img src={wearingHeadset} alt="about" className="img-fluid about-image-solid" />
           </Col>
         </Row>
-        {/*
-        <h1 className="project-heading">
-          Professional <strong className="purple">Skillset </strong>
-        </h1>
-
-        <Techstack />}
-
-        <h1 className="project-heading">
-          <strong className="purple">Tools</strong> I use
-        </h1>
-        <Toolstack />*/}
-
-        {/* <Github /> */}
       </Container>
     </Container>
   );

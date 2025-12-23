@@ -2,7 +2,7 @@ import React from "react";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import { CgWebsite } from "react-icons/cg";
-//import { BsGithub } from "react-icons/bs";
+import { BsGithub } from "react-icons/bs";
 import { ImPlay } from "react-icons/im";
 import { SiCloudflarepages } from "react-icons/si";
 
@@ -53,6 +53,19 @@ function ProjectCards(props) {
           </Button>
         )}
 
+        {"\n"}
+        {"\n"}
+        {/* Github Button */}
+        {props.githubLink && (
+          <Button
+            variant="primary"
+            href={props.githubLink}
+            target="_blank"
+            style={{ marginLeft: "10px" }}
+          >
+            <BsGithub /> &nbsp; Github
+          </Button>
+        )}
         {"\n"}
         {"\n"}
         {/* Slidedeck Button */}

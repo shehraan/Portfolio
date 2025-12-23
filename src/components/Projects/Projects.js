@@ -6,15 +6,11 @@ import msft from "../../Assets/Projects/image.png";
 import dragon from "../../Assets/Projects/Dragon.jpg";
 import health from "../../Assets/Projects/healthcare_800x600_newcolors.gif";
 import Luminet from "../../Assets/Projects/laser.png";
-import Meta from "../../Assets/Projects/meta-copy.png";
 import Interac from "../../Assets/Projects/SS.png";
-import Investor from "../../Assets/Projects/asodkoaopkd.png";
-import stocks from "../../Assets/Projects/stonks.png";
 import slackbot from "../../Assets/Projects/Slackbot.png";
 import nanny from "../../Assets/Projects/Screenshot 2025-04-19 132754.png"
 import vapi from "../../Assets/Projects/1722190046010-bd1a05f5a5309646.png"
 import chat from "../../Assets/Projects/chaticonimages.png"
-import x from "../../Assets/Projects/A_black_image.jpg"
 
 function Projects() {
   return (
@@ -34,7 +30,7 @@ function Projects() {
               isBlog={false}
               title="Bluma Slackbot"
               description="This is a Slack bot that generates viral video content using OpenAI's GPT-4 and Sora-2 models."
-              websiteLink="https://github.com/shehraan/Bluma-Slack-App"
+              githubLink="https://github.com/shehraan/Bluma-Slack-App"
               webLink="https://www.tella.tv/video/i-made-an-app-for-you-4x38"
             />
           </Col>
@@ -45,8 +41,8 @@ function Projects() {
               isBlog={false}
               title="DIY VR Headset"
               description="VR Headset made for <$50 using a modified GearVR shell. The system handles head tracking through onboard sensor fusion and streams orientation data to a custom SteamVR driver for real-time rendering. It’s a low-cost, self-built XR platform focused on 3DoF tracking, latency, and hardware–software integration."
-              websiteLink="https://github.com/shehraan/Bluma-Slack-App"
-              webLink="https://www.tella.tv/video/i-made-an-app-for-you-4x38"
+              githubLink="https://github.com/shehraan/DIY_VR_HEADSET"
+              webLink="https://drive.google.com/file/d/19pGWAnTyWovqxkzj7VpuWR-0w2q3KPno/view?usp=sharing"
             />
           </Col>
         <Col md={4} className="project-card">
@@ -57,6 +53,7 @@ function Projects() {
               description="This webapp allows users to generate mock interview questions based on job criteria and then practice answering those questions with a voice agent, receiving feedback afterward."
               websiteLink="https://vapi-interview-practice.vercel.app/"
               webLink="https://x.com/ShehraanH/status/1916909295892832410"
+              githubLink="https://github.com/shehraan/Vapi-Interview-Practice"
             />
           </Col>
         <Col md={4} className="project-card">
@@ -66,7 +63,7 @@ function Projects() {
               title="Vapi Discord Bot"
               description="This Discord Bot brings voice‑powered AI assistance right into your Discord server. With a simple slash‑command interface, you can start natural‑language calls to your Vapi AI assistant, monitor live call progress and retrieve call statuses, browse your recent conversations with adjustable history limits, terminate ongoing sessions on demand, and get help anytime with built‑in command guidance."
               webLink="https://drive.google.com/file/d/1roRtP3aeANeL9YAZuFCNjqsAz5cVMrF_/view?usp=sharingg"
-              websiteLink="https://github.com/shehraan/Vapi-based-Discord-Bot"
+              githubLink="https://github.com/shehraan/Vapi-based-Discord-Bot"
             />
           </Col>
 
@@ -77,7 +74,7 @@ function Projects() {
               title="AeyeR"
               description="Created a 'ChatGPT for Eyes' app, which allows you to speak with AI in Augmented Reality. The app can take an image of what you're looking at, and provide a response to your message, based upon the image. My Nanny used it to learn English."
               webLink="https://youtu.be/KbjbYzSsAtg"
-              websiteLink="https://github.com/shehraan/AR-Glasses-Assistant"
+              githubLink="https://github.com/shehraan/AR-Glasses-Assistant"
             />
             {/* Instructions: Triple‑tap to get audio with image, then single tap to end message. ONLY single‑tap to start/stop audio message without image */}
           </Col>
@@ -130,7 +127,7 @@ function Projects() {
               description="A chatbot webapp that allows you to talk with MedpaLM 2, Google's latest large language model oriented towards the medical domain."
               demoLink="https://medium.com/insights-of-nature/medpalm-the-doctor-of-tomorrow-8db91b9e26b0"
               webLink="https://youtu.be/4UiZsw3aTjk"     
-              websiteLink="https://shehraan.online/"      
+              githubLink="https://github.com/shehraan/MedpaLM-based-chatbot"
             />
           </Col>
 
