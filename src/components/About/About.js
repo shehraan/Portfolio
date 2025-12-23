@@ -6,6 +6,7 @@ import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/self.jpg";
 import Toolstack from "./Toolstack";
+import wearingHeadset from "../../Assets/meWithHeadset.jpg";
 
 function About() {
   return (
@@ -22,7 +23,7 @@ function About() {
             }}
           >
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-              Who am <strong className="purple">I?</strong>
+              About Me
             </h1>
             <Aboutcard />
           </Col>
@@ -31,7 +32,8 @@ function About() {
             style={{ paddingTop: "120px", paddingBottom: "50px" }}
             className="about-img"
           >
-            <img src={laptopImg} alt="about" className="img-fluid" />
+            <img src={laptopImg} alt="about" className="img-fluid about-image-solid" />
+            <img src={wearingHeadset} alt="about" className="img-fluid about-image-solid" />
           </Col>
         </Row>
         {/*
@@ -39,14 +41,14 @@ function About() {
           Professional <strong className="purple">Skillset </strong>
         </h1>
 
-        <Techstack />*/}
+        <Techstack />}
 
         <h1 className="project-heading">
           <strong className="purple">Tools</strong> I use
         </h1>
-        <Toolstack />
+        <Toolstack />*/}
 
-        <Github />
+        {/* <Github /> */}
       </Container>
     </Container>
   );

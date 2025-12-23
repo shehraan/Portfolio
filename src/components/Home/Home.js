@@ -13,12 +13,12 @@ function Home() {
         <Container className="home-content">
           <Row>
             <Col md={7} className="home-header">
-              <h1 style={{ paddingBottom: 15 }} className="heading">
+              {/* <h1 style={{ paddingBottom: 15 }} className="heading">
                 Hi There!{" "}
                 <span className="wave" role="img" aria-labelledby="wave">
                   👋🏻
                 </span>
-              </h1>
+              </h1> */}
 
               <h1 className="heading-name">
                 I'M
@@ -26,7 +26,9 @@ function Home() {
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>
-                <Type />
+               <h2>I build real-time AI + embedded systems that interact with the physical world.</h2>
+               <br />
+               <h5>Prev: CareCycle (YC W25), Social Ventures Zone</h5>
               </div>
             </Col>
 
@@ -34,7 +36,7 @@ function Home() {
               <img
                 src={homeLogo}
                 alt="home pic"
-                className="img-fluid"
+                className="img-fluid hero-image-solid"
                 style={{ maxHeight: "800px" }}
               />
             </Col>

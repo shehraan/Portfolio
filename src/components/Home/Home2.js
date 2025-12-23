@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/Profile-pic.svg";
+import myImg from "../../Assets/UpdatedProfilePic.svg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -15,28 +15,34 @@ function Home2() {
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
-            </h1>
-            <p className="home-about-body">
-              I'm passionate about artificial intelligence, especially how it can transform the way we work and interact with technology. My main focus is on workflow automation and building intelligent voice agents that help people save time and boost productivity.
+            <h1 style={{ fontSize: "2.6em" }}>QUICK INTRO</h1>
+            <p className="home-about-body">I’ve previously worked at Social Ventures Zone and CareCycle (YC W25), where I focused on building and deploying real-world AI systems.
+
               <br />
               <br />
-              I love exploring how AI can automate repetitive tasks, streamline complex processes, and enable seamless communication between different tools and platforms. Voice agents, in particular, excite me because they make technology more accessible and intuitive—letting users accomplish more just by speaking naturally.
+              My recent work spans real-time AI, embedded systems, and hardware-software interaction, including a DIY VR headset/controller and AI communication tools built around voice agents and workflow automation.
+
               <br />
               <br />
-              I'm always experimenting with new ways to integrate AI into everyday workflows, whether that's through smart assistants, custom automation scripts, or conversational interfaces. If you're interested in how AI can make work smarter and more efficient, let's connect!
+              I build quickly, end-to-end, and use projects to understand how systems behave under real constraints.
               <br />
               <br />
-              Check out my latest app—a practice interview app—on the <a href="https://shehraan.com/project">projects page</a>
+              Check out my latest project, a slackbot that lets you generate AI videos via slash commands, on the{" "}
+              <a href="https://shehraan.com/project">projects page</a>
             </p>
           </Col>
+
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <img
+                src={myImg}
+                className="img-fluid profile-image-solid"
+                alt="avatar"
+              />
             </Tilt>
           </Col>
         </Row>
+
         <Row>
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
@@ -91,4 +97,5 @@ function Home2() {
     </Container>
   );
 }
+
 export default Home2;
